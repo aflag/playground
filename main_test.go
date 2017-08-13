@@ -10,9 +10,9 @@ func TestToString(t *testing.T) {
 		Value: 5,
 		Left: &BinaryTree{
 			Value: 3,
-			Left:  &BinaryTree{
+			Left: &BinaryTree{
 				Value: 2,
-				Left: &BinaryTree{Value: 1},
+				Left:  &BinaryTree{Value: 1},
 			},
 			Right: &BinaryTree{Value: 4},
 		},
@@ -87,9 +87,9 @@ func TestSerialize(t *testing.T) {
 		Value: 5,
 		Left: &BinaryTree{
 			Value: 3,
-			Left:  &BinaryTree{
+			Left: &BinaryTree{
 				Value: 2,
-				Left: &BinaryTree{Value: 1},
+				Left:  &BinaryTree{Value: 1},
 			},
 			Right: &BinaryTree{Value: 4},
 		},
@@ -108,9 +108,9 @@ func TestSerializeDeserialize(t *testing.T) {
 		Value: 5,
 		Left: &BinaryTree{
 			Value: 3,
-			Left:  &BinaryTree{
+			Left: &BinaryTree{
 				Value: 2,
-				Left: &BinaryTree{Value: 1},
+				Left:  &BinaryTree{Value: 1},
 			},
 			Right: &BinaryTree{Value: 4},
 		},

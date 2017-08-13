@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	GoLeft  = iota
+	GoLeft = iota
 	GoRight
 	Return
 	Read
